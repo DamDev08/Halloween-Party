@@ -12,12 +12,10 @@ window.onload = function () {
   var backgroundAudio = document.getElementById("bgAudio");
   backgroundAudio.volume = 0.5;
 };
-
 function ghostTogglePopup() {
   let popup = document.getElementById("ghostPopupOverlay");
   popup.classList.toggle("open");
 }
-
 function spookyTogglePopup() {
   let popup = document.getElementById("spookyPopupOverlay");
   popup.classList.toggle("open");
