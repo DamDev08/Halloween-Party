@@ -1,16 +1,16 @@
 @font-face {
   font-family: "HalloweenMorning";
-  src: url(/Database/Polices/HalloweenMorning.ttf) format(truetype);
+  src: url(Database/Polices/HalloweenMorning.ttf) format(truetype);
 }
 
 @font-face {
   font-family: "MidnightMinutes";
-  src: url(/Database/Polices/MidnightMinutes.otf) format(truetype);
+  src: url(Database/Polices/MidnightMinutes.otf) format(truetype);
 }
 
 @font-face {
   font-family: "SpookyHalloween";
-  src: url(/Database/Polices/SpookyHalloween.ttf);
+  src: url(Database/Polices/SpookyHalloween.ttf);
 }
 
 body {
@@ -21,7 +21,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   display: flex;
   flex-direction: column;
-  background-image: url(/Database/Images/Halloween/jpeg/halloweenBackground.jpg);
+  background-image: url(Database/Images/Halloween/jpeg/halloweenBackground.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -30,7 +30,7 @@ body {
 .rain {
   width: 100vw;
   height: 100vh;
-  background-image: url(/Database/Images/Halloween/png/rain.png);
+  background-image: url(Database/Images/Halloween/png/rain.png);
   animation: rain 0.3s linear infinite;
 }
 
@@ -48,7 +48,7 @@ body {
   position: absolute;
   width: 110vw;
   height: 90vh;
-  background-image: url(/Database/Images/Halloween/png/Lightning.png);
+  background-image: url(Database/Images/Halloween/png/Lightning.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -157,7 +157,7 @@ h2 {
   border-radius: 50%;
   box-shadow: 0px 0px 5px 0px #fff, 0px 0px 5px 0px #000fff;
   animation: pulse 1s infinite;
-  background-image: url(/Database/Images/Halloween/png/fullMoon.png);
+  background-image: url(Database/Images/Halloween/png/fullMoon.png);
   background-size: cover;
   margin: auto;
   width: 30%;
@@ -208,7 +208,7 @@ h2 {
 
 .spookyPopupContent {
   /*background-color: rgb(0, 0, 0);*/
-  background-image: url(/Database/Images/Halloween/jpeg/zombieHand.jpg);
+  background-image: url(Database/Images/Halloween/jpeg/zombieHand.jpg);
   background-size: cover;
   background-position: center;
   width: 85%;
@@ -290,7 +290,7 @@ h2 {
 
 .ghostPopupContent {
   /*background-color: rgb(0, 0, 0);*/
-  background-image: url(/Database/Images/Halloween/jpeg/clownHorrible.jpg);
+  background-image: url(Database/Images/Halloween/jpeg/clownHorrible.jpg);
   background-size: cover;
   background-position: center;
   width: 85%;

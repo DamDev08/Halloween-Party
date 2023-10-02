@@ -1,11 +1,11 @@
 function spookySound() {
   var spookySound = new Audio();
-  spookySound.src = "/Database/Sons/Halloween/mp3/horribleLaugh.mp3";
+  spookySound.src = "Database/Sons/Halloween/mp3/horribleLaugh.mp3";
   spookySound.play();
 }
 function ghostSound() {
   var ghostSound = new Audio();
-  ghostSound.src = "/Database/Sons/Halloween/mp3/ghostSound.mp3";
+  ghostSound.src = "Database/Sons/Halloween/mp3/ghostSound.mp3";
   ghostSound.play();
 }
 window.onload = function () {
