@@ -24,7 +24,7 @@ body {
   background-size: cover;
 }
 
-.popup {
+.modal {
   background-image: url(Database/Images/Halloween/jpeg/halloweenPaper.jpg);
   
   background-position: center;
@@ -50,7 +50,7 @@ h3{
   text-shadow:black;
 }
 
-.popup p {
+.modal p {
   width: auto;
   text-align:center;
   margin: 20px 0;
@@ -68,7 +68,7 @@ h3{
   justify-content: start;
 }
 
-.popup button {
+.modal button {
   width: 25%;
   position: relative;
   margin: auto;
@@ -83,7 +83,7 @@ h3{
   cursor: pointer;
 }
 
-.popup button:hover {
+.modal button:hover {
   background-color: rgb(107, 13, 13);
   color: #fff;
 }

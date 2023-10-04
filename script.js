@@ -1,16 +1,16 @@
 window.addEventListener("load", function(){
   setTimeout(
     function open(event){
-      document.querySelector(".popup").style.display = "block";
+      document.querySelector(".modal").style.display = "block";
     },
     500
   )
 });
 document.querySelector("#btnClose").addEventListener("click", function(){
-  document.querySelector(".popup").style.display = "none";
+  document.querySelector(".modal").style.display = "none";
 });
 document.querySelector("#btnPlay","#btnClose").addEventListener("click", function(){
-  document.querySelector(".popup").style.display = "none";
+  document.querySelector(".modal").style.display = "none";
 });
 function playMusic(){
   let playIt = new Audio("Database/Musiques/Halloween/mp3/halloweenBgdMusic.mp3");
