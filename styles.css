@@ -23,6 +23,71 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.popup {
+  background-image: url(Database/Images/Halloween/jpeg/halloweenPaper.jpg);
+  
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 450px;
+  padding: 30px 40px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 08px;
+  z-index: 98;
+  display: none;
+  /*ne pas oublier display : "none" pour ne 
+pas apparaitre au loading de la page*/
+}
+
+h3{
+  text-align: center;
+  font-family: "midnightMinutes";
+  font-size: 2em;
+  color:rgb(55, 0, 252);
+  text-shadow:black;
+}
+
+.popup p {
+  width: auto;
+  text-align:center;
+  margin: 20px 0;
+  color: rgb(0, 0, 0);
+  font-size: 1.8em;
+  font-weight: bolder;
+  font-family: "midnightMinutes";
+  
+  
+}
+
+.btns {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+}
+
+.popup button {
+  width: 25%;
+  position: relative;
+  margin: auto;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 1em;
+  background-color: rgba(255, 255, 0, 0);
+  color: #8400ff;
+  text-decoration: none;
+  padding: 5px 0;
+  cursor: pointer;
+}
+
+.popup button:hover {
+  background-color: rgb(107, 13, 13);
+  color: #fff;
+}
+
 .rain {
   width: 100vw;
   height: 100vh;
@@ -125,7 +190,7 @@ h1 {
   /*background-color: rgb(75, 75, 75);*/
   color: darkorange;
   font-family: "HalloweenMorning", sans-serif;
-  font-size: 3.5em;
+  font-size: 3.5rem;
   text-align: center;
 }
 .intro {
@@ -139,6 +204,7 @@ h2 {
   color: rgba(255, 0, 0, 0.93);
   font-family: "MidnightMinutes", sans-serif;
   font-style: italic;
+  font-size: 2em;
 }
 .witch {
   position: relative;
@@ -230,7 +296,7 @@ h2 {
 }
 #ghost {
   background: #ffffff00;
-  width: 35%;
+  width: 60%;
 }
 .ghostButton {
   position: relative;
@@ -242,7 +308,7 @@ h2 {
 }
 .clique {
   font-family: "MidnightMinutes";
-  font-size: 1.1em;
+  font-size: 1.5em;
   font-style: bold;
   color: rgb(255, 102, 0);
   transform: rotate(-25deg);

@@ -1,52 +1,44 @@
 <!DOCTYPE html>
 <html lang="fr">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="description" content="Free Web tutorials" />
-    <meta name="keywords" content="HTML,CSS,JS" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="styles.min.css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Free Web tutorials">
+    <meta name="keywords" content="HTML,CSS,JS">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.min.css">
     <title>Halloween Party!</title>
   </head>
   <body>
+    
     <main class="rain">
+      <div class="popup">
+      <h3>Un fond sonore pour te mettre dans l'ambiance est disponible!</h3>
+      <p>Auras-tu assez de<br>
+      courage pour l'activer???</p>
+      <div class="btns"><button id="btnClose">AAAAHHHH!! Noooon!!!</button>
+      <button id="btnPlay" onclick="playMusic()">MEME PAS PEUR!!!</button></div>
+    </div>
       <h1>SCARY PARTY!</h1>
       <section class="intro">
-        <img
-          class="witch"
-          src="Database/Images/Halloween/png/witch.png"
-          alt="png"
-        />
+        <img class="witch" src="Database/Images/Halloween/png/witch.png" alt="png"/>
         <h2>COMING SOON...</h2>
       </section>
       <section class="sb">
         <div id="spookyPopupOverlay">
           <div class="spookyPopupContent">
             <p>
-              L'heure d'affronter tes plus grandes peurs est arrivée...<br /><br />
-              Enfile ton plus effrayant costume<br />
-              et rejoins-nous dans l'antre de la bête si tu en as le courage!<br /><br />
-              Nous t'attendrons à la tombée de la nuit sanglante<br />
-              le 31 OCTOBRE 2023 à 20H00<br />
+              L'heure d'affronter tes plus grandes peurs est arrivée...<br/><br/>
+              Enfile ton plus effrayant costume<br/>
+              et rejoins-nous dans l'antre de la bête si tu en as le courage!<br/><br/>
+              Nous t'attendrons à la tombée de la nuit sanglante<br/>
+              le 31 OCTOBRE 2023 à 20H00<br/>
             </p>
-            <a
-              href="javascript:void(0)"
-              class="spookyPopupExit"
-              onclick="spookyTogglePopup();"
-              >FERMER</a
-            >
+            <a href="javascript:void(0)" class="spookyPopupExit" onclick="spookyTogglePopup();">FERMER</a>
           </div>
         </div>
-        <button
-          class="spookyButton"
-          onclick="spookySound();spookyTogglePopup();"
-        >
-          <img
-            id="spooky"
-            src="Database/Images/Halloween/png/spooky.png"
-            alt="png"
-          />
+        <button class="spookyButton" onclick="spookySound();spookyTogglePopup();">
+          <img id="spooky" src="Database/Images/Halloween/png/spooky.png" alt="png"/>
         </button>
       </section>
       <section class="gb">
@@ -60,33 +52,15 @@
               apparaissent,<br /><br />
               Ferme, et clique sur mon tout si tu n'es pas froussard...
             </p>
-            <a
-              href="javascript:void(0)"
-              class="ghostPopupExit"
-              onclick="ghostTogglePopup();"
-              >FERMER</a
-            >
+            <a href="javascript:void(0)" class="ghostPopupExit" onclick="ghostTogglePopup();">FERMER</a>
           </div>
         </div>
         <button class="ghostButton" onclick="ghostSound();ghostTogglePopup();">
           <p class="clique">CLIQUE ICI SI TU OSES!</p>
-          <img
-            id="ghost"
-            src="Database/Images/Halloween/png/funnyGhost.png"
-            alt="png"
-          />
+          <img id="ghost" src="Database/Images/Halloween/png/funnyGhost.png" alt="png"/>
         </button>
       </section>
-      <section>
-        <audio
-          src="Database/Musiques/Halloween/mp3/halloweenBgdMusic.mp3"
-          type="music/mp3"
-          controls
-          loop
-          muted
-          autoplay="true"
-        ></audio>
-      </section>
+      
       <footer>HAPPY HALLOWEEN !</footer>
     </main>
     <script type="text/javascript" src="script.min.js"></script>
